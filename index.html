@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>AstroClove</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+		<form onsubmit="formSubmit(event)">
+			<fieldset>
+				<legend>Birth Chart Information</legend>
+				<p> <label> Date <input type="date" id="date" disabled="true"></label></p>
+				<p> <label> Time <input type="time" id="time" disabled="true"></label> <label>(unknown time)<input type="checkbox" disabled="true"></label>
+				<p> <label> Location <input type="text" id="location" oninput="findPlace()"></label></p>
+			</fieldset>
+			<p><button type="submit" id="submitButton">Submit</button></p> 
+		</form>
+
+		<script>
+			const formSubmit = ()  => {
+				alert(document.getElementById("location").value);
+			};
+
+			const findPlace = () => {
+				const text = document.getElementById("location").value;
+				console.log(text);
+			}
+		</script>
+	</body>
+	
+</html>
