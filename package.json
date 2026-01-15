@@ -1,0 +1,27 @@
+{
+  "name": "astroclove",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "https://github.com/andypeterson2/astroclove#readme",
+  "bugs": {
+    "url": "https://github.com/andypeterson2/astroclove/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andypeterson2/astroclove.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.6",
+    "eslint": "^9.39.2",
+    "prettier": "^3.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
